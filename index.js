@@ -3,8 +3,15 @@ const path = require('path');
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
 
+
+
 // array of questions for user
 const questions = [
+    {
+      type: 'input',
+      name: 'name',
+      message: 'What is your name?',
+    },
     {
       type: 'input',
       name: 'title',
@@ -14,6 +21,11 @@ const questions = [
       type: 'input',
       name: 'description',
       message: 'Please provide a description of your project:',
+    },
+    {
+      type: 'input',
+      name: 'demo',
+      message: 'Please enter the link you would like to use to preview this application:',
     },
     {
       type: 'input',
@@ -27,7 +39,7 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'contribution',
+      name: 'contributing',
       message: 'Please provide contribution guidelines for your project:',
     },
     {
@@ -39,12 +51,12 @@ const questions = [
       type: 'list',
       name: 'license',
       message: 'Which license will you be using for your project?',
-      choices: ['MIT', 'GPLv3', 'Apache', 'BSD'],
+      choices: ['MIT License', 'GNU GPLv3', 'Apache License 2.0', 'BSD'],
     },
     {
       type: 'input',
       name: 'github',
-      message: 'What is your GitHub username?',
+      message: 'What is your GitHub profile link?',
     },
     {
       type: 'input',
