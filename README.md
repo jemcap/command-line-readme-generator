@@ -13,6 +13,7 @@ This application is a README generator using Node.js via the Command Line Interf
 
 ## **Demo**
 ![Image](assets/generated-readme.png)
+![Video](./cli-readme-generator.mp4)
 
 <hr/>
 
