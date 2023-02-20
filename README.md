@@ -56,6 +56,6 @@ Any queries about this project, please feel welcome to reach out to me using the
 <h3>Josh Capito</h3>
 - Github: <a href="https://github.com/jemcap">Josh Capito</a>
 <br />
-- Email: <a href="mailto:joshuaecapito22@gmail.com">joshuaecapito22@gmai.com</a>
+- Email: <a href="mailto:joshuaecapito22@gmail.com">joshuaecapito22@gmail.com</a>
 
 
